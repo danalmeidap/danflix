@@ -5,6 +5,7 @@ class Serie(BaseModel):
     
     id:Optional[int]= None
     title:str
+    year:int
     genre:str
     seassons:str
 
