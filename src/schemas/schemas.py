@@ -7,7 +7,7 @@ class Serie(BaseModel):
     title:str
     year:int
     genre:str
-    seassons:str
+    seassons:int
 
     class Config:
         orm_mode = True
